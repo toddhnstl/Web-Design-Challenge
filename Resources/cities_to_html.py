@@ -11,7 +11,7 @@ import os
 
 cities_data_file = "cities.csv"
 
-cities_data_html_file = os.path.join('..', 'cities_data_table.html')
+cities_data_html_file = os.path.join('..', 'WebVisualizations', 'cities_data_table.html')
 
 
 
