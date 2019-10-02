@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Visualization Dashboard</title>
+    <!--    -->
+
+
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
+
+    <script crossorigin="anonymous"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+    <script crossorigin="anonymous"
+            integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+            src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <script crossorigin="anonymous"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+    <script src="./w3.js"></script>
+
+    <!-- <link rel="stylesheet" href="./styles.css"> -->
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body class="body_class">
+<!-- code for navigation bar and drop downs -->
+<!--  Included Navigation Bar -->
+<div w3-include-html="include/nav.html"></div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+
+
+                <h2>Latitude vs. Tempature</h2>
+
+                <hr>
+
+
+
+                    <img  class="piccenter" alt="City Latitude vs. Max Temperature" height="30%" src="Images/LatVsTemp.png"
+                           style="center" target="_blank" width="60%">
+
+
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna
+                        liqua. Morbi tristique senectus et netus. Sed velit
+                        dignissim sodales ut eu sem. Feugiat nisl pretium
+                        fusce id velit ut tortor pretium.
+                    </p>
+                    <p>
+                        Vulputate dignissim suspendisse in est ante in.
+                        Leo integer malesuada nunc vel risus commodo. Morbi
+                        quis commodo odio aenean sed adipiscing diam donec.
+                        Faucibus et molestie ac feugiat sed. Facilisi morbi
+                        tempus iaculis urna. Pretium fusce id velit ut tortor.
+                        Pulvinar pellentesque habitant morbi tristique senectus
+                        et netus et malesuada. Id volutpat lacus laoreet non
+                        curabitur gravida. Proin sagittis nisl rhoncus mattis
+                         rhoncus urna neque viverra justo. Malesuada bibendum
+                         arcu vitae elementum.
+                    </p>
+
+
+
+        </div>
+
+
+        <div class="col-md-4">
+            <div class="container">
+
+
+                    <h2>Visualizations</h2>
+                    <hr>
+
+
+                    <div class="row">
+
+                        <div class="col-xs-3">
+                            <a href="cloudiness.html" target="_blank">
+                                <img alt="City Latitude vs. Cloudiness"
+                                     height="130" src="Images/LatVsClouds.png" width="130"/>
+                            </a>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <a href="humidity.html" target="_blank">
+                                <img alt="City Latitude vs. Humidity"
+                                     height="130" src="Images/LatVsHumidity.png" width="130"/>
+                            </a>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <a href="max_temp.html">
+                                <img alt="City Latitude vs. Max Temperature" height="130"
+                                     src="Images/LatVsTemp.png" target="_blank" width="130"/>
+                            </a>
+                        </div>
+
+                        <div class="col-xs-3">
+                            <a href="wind_speed.html" target="_blank">
+                                <img alt="City Latitude vs. Wind Speed"
+                                     height="130" src="Images/LatVsWindSpd.png" width="130"/>
+                            </a>
+                        </div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script>
+  w3.includeHTML();
+
+
+
+
+
+</script>
+
+</body>
+
+</html>
