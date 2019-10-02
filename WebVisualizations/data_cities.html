@@ -31,36 +31,8 @@
 </head>
 <body>
 <!-- code for navigation bar and drop downs -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-
-    <a class="navbar-brand" href="index.html">Latitude</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                   aria-haspopup="true" aria-expanded="false">
-                    Plots
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="max_temp.html">Max Temperature</a>
-                    <a class="dropdown-item" href="humidity.html">Humidity</a>
-                    <!-- <div class="dropdown-divider"></div> -->
-                    <a class="dropdown-item" href="cloudiness.html">Cloudiness</a>
-                    <a class="dropdown-item" href="wind_speed.html">Wind Speed</a>
-            <li class="nav-item">
-                <a class="nav-link" href="comparison.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="data_cities.html">Data</a>
-            </li>
-        </ul>
-    </div>
-</nav>
+<!--  Included Navigation Bar -->
+<div w3-include-html="include/nav.html">MELCHING</div>
 
 
 <div w3-include-html="./cities_data_table.html"></div>
