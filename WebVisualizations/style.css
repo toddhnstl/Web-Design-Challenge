@@ -3,5 +3,12 @@
 }
 
 .container {
-    background-color: darkgrey;
+    background-color: #f1f1f1;
+}
+
+.piccenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
